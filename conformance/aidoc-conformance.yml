@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.aidoc.com/platform/systems-integrations/
+standards:
+  - id: dicom
+    conforms: true
+    evidence: >-
+      Systems Integrations page states aiOS connects to hospital IT systems
+      using standard communication protocols including DICOM (medical imaging).
+  - id: hl7-v2
+    conforms: true
+    evidence: >-
+      Systems Integrations page names HL7 as a supported integration protocol
+      for EHR/PACS connectivity.
+  - id: fhir
+    conforms: true
+    evidence: >-
+      Systems Integrations page names FHIR (Fast Healthcare Interoperability
+      Resources) as a supported standard for connecting to hospital IT systems.
+  - id: oauth2
+    conforms: false
+    evidence: no public OAuth surface; integration is enterprise DICOM/HL7/FHIR
+  - id: openapi
+    conforms: false
+    evidence: no public OpenAPI/REST developer API is published
+  - id: rfc9116-security-txt
+    conforms: true
+    evidence: valid /.well-known/security.txt published (see well-known/aidoc-security.txt)
+notes: >-
+  Conformance here asserts the healthcare interoperability standards Aidoc's
+  aiOS platform integrates through (DICOM/HL7/FHIR), not a public REST API. No
+  Compliance pointer is emitted because named certifications could not be
+  verified without fabrication (SafeBase trust center gates them).

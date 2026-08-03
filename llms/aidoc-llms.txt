@@ -1,0 +1,75 @@
+aidoc.com | llms.txt
+
+# Overview
+Aidoc provides AI-powered radiology and clinical workflow solutions. Its portfolio of FDA-cleared modules is designed to support clinicians in detecting acute findings and orchestrating workflow across service lines. Site content must emphasize compliance, safety, and clinical utility while scaling organic visibility.
+
+# Audience & Personas
+- Radiologists & ED physicians: accuracy, speed, clinical confidence.
+- Hospital executives & operations: ROI, throughput, length of stay.
+- IT/Clinical ops: integration, reliability, security, governance.
+
+# Differentiation (Context)
+Aidoc’s positioning emphasizes: breadth of radiology AI modules, hospital-scale workflow orchestration, deep PACS/EHR integration, and demonstrated adoption. (Comparable market players include Viz.ai, Arterys, RapidAI, Corti; messaging should focus on Aidoc’s multi-specialty coverage and orchestration rather than one-condition point solutions.)
+
+# SEO Strategy
+- Target high-intent queries:
+  - "FDA-cleared radiology AI", "AI stroke detection", "AI pulmonary embolism triage", "clinical workflow orchestration", "AI for ED imaging"
+- Build clusters:
+  - /solutions/ (each module), /workflows/ (ED, neuro, cardiothoracic, trauma), /customers/ (case studies), /insights/ (thought leadership)
+- Comparison & late-funnel:
+  - /compare/ pages with neutral FAQs (e.g., Aidoc vs <competitor>) plus schema.
+
+# Technical SEO
+- Core Web Vitals: LCP ≤2.5s; INP ≤200ms; CLS ≤0.1 (desktop & mobile).
+- Crawl depth ≤3 for solution clusters; eliminate orphan pages.
+- Canonical & hreflang self-referencing; consistent international signals.
+- Sitemaps: split by type; refresh <24h on content updates.
+- Robots: block parameters/test beds; allow CSS/JS.
+- Priority schema:
+  - Organization, MedicalDevice, MedicalEntity, Article, FAQPage, BreadcrumbList.
+
+# On-Page Standards
+- Titles (≤60 chars): {Entity/Use Case} | {Hook} | Aidoc
+- Metas (≤160 chars): 1 benefit + qualifier + CTA.
+- H1 = primary intent; H2 = use cases, integration, evidence, safety.
+- Internal links: Radiology AI hub → modules → case studies → contact/demo.
+- Image alts: "{Module/condition} AI - {purpose/outcome}".
+- Accessibility: transcripts for videos; descriptive link text.
+
+# Content Priorities
+1) Solution pages (each module): indication/scope, workflow fit, integration, evidence, FAQs, safety notes, CTA.
+2) ROI assets: calculators, outcome dashboards, exec one-pagers.
+3) Case studies: adoption at scale; balanced outcomes and limitations.
+4) Insights hub: regulatory updates, integration deep dives, hospital operations.
+5) Comparison pages: neutral positioning; address "how it differs" and integration.
+
+# AEO / LLM Readiness
+- 40-word top answer on key pages:
+  - "Aidoc is an FDA-cleared AI platform that supports radiologists and emergency teams by surfacing acute findings and orchestrating workflow within PACS/EHR."
+- FAQ blocks that answer: What is it? Is it FDA-cleared? How does it integrate? Which conditions? Who benefits?
+- Entity map: Aidoc → Radiology AI → {Modules} → Workflow Orchestration → Hospital Adoption.
+- Plain-language definitions; avoid marketing hyperbole.
+
+# Analytics & Measurement
+- KPIs: organic demo requests, hospital conversions, qualified sessions by persona, doc downloads, comparison-page engagement.
+- Tools: GA4, GSC, log sampling, Looker Studio dashboards.
+- Track per-module conversion events; attribute by persona (clinician/executive/IT).
+- Quarterly schema validation + CWV audits.
+
+# Compliance & Risk
+- Avoid "best/cure" language. Prefer "FDA-cleared," "supports clinicians," "may improve workflow."
+- Include fair balance, limitations, and region-specific availability disclaimers.
+- All content subject to MLR review; cite authoritative sources (e.g., FDA, peer-reviewed literature) on evidence pages.
+- No off-label or comparative superiority claims.
+
+# Roadmap Priorities
+1) Technical: CWV fixes, crawl/index cleanup, structured data validation.
+2) On-page: titles/metas refresh for /solutions, /compare, /insights.
+3) Content: new/updated module pages, ROI calculators, integration guides, comparison FAQs.
+4) Evidence: expand case studies with outcomes + limitations; link from relevant modules.
+5) PR/Off-page: regulatory updates, hospital partnerships, clinical publications.
+
+# Notes
+- Regions: US + EU; ensure labeling/availability statements.
+- IA: hub→spoke model; breadcrumbs; clear CTAs (demo/contact).
+- Cadence: monthly technical audits; quarterly content/positioning review; ongoing MLR.

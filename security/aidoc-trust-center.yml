@@ -1,0 +1,24 @@
+generated: '2026-07-17'
+method: searched
+probe: false
+url: https://aidoc.safebase.us/
+platform: SafeBase
+source: https://www.aidoc.com/about/security-privacy/
+certifications: []
+frameworks:
+  - NIST Cybersecurity Framework
+evidence:
+  - source: https://www.aidoc.com/about/security-privacy/
+    detail: >-
+      Security & Privacy page links to "our Trust Center" at
+      https://aidoc.safebase.us/ and states Aidoc operates on AWS and Azure,
+      implements the NIST Cybersecurity Framework, and uses EDR, encryption,
+      SIEM, and CSPM technologies. Security contact security@aidoc.com,
+      privacy contact privacy@aidoc.com.
+notes: >-
+  A SafeBase-hosted trust center is published and linked from Aidoc's own
+  Security & Privacy page. The certification catalog (SafeBase gates the named
+  SOC 2 / ISO / HIPAA documents behind an access request, returning HTTP 403 to
+  unauthenticated fetches), so specific certification names are not recorded
+  here to avoid fabrication. No Compliance pointer is emitted for the same
+  reason.

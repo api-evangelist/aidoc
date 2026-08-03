@@ -1,0 +1,32 @@
+# security.txt for aidoc
+
+# This file provides information on how to report security vulnerabilities responsibly.
+# Please use this information to help us improve our security posture.
+
+Contact: mailto:security@aidoc.com
+Policy: https://www.aidoc.com/privacy-policy/
+https://www.aidoc.com/about/security-privacy/ 
+
+# Please note that we do not operate a public bug bounty program at this time.
+# We review all vulnerability reports on a case-by-case basis and appreciate the efforts of the security community.
+# We kindly ask you to report only significant security vulnerabilities and not issues from the following list:
+
+# We are aware of and do not require reports on:
+- Missing security headers such as "Strict-Transport-Security" or "X-Frame-Options".
+- Lack of SPF, DKIM, or DMARC records in our domain configuration.
+- Minor content security policy (CSP) misconfigurations that do not expose sensitive data or compromise user security.
+- Self-XSS (Self-Exploiting XSS) vulnerabilities.
+- HTTP security misconfigurations on non-sensitive endpoints (e.g., landing pages).
+- Clickjacking on pages that do not contain sensitive actions or user data.
+- Error messages that do not leak sensitive information or expose internal system details.
+- Open directory listings in non-sensitive areas of the website.
+- Disclosure of software version numbers in HTTP headers.
+- Use of cookies without the "HttpOnly" or "Secure" flags that do not contain sensitive information.
+- Use of outdated libraries or software versions without a clear exploit.
+
+# Responsible Disclosure
+- We encourage responsible disclosure of security vulnerabilities.
+- Please allow us a reasonable time to investigate and remediate the issue before disclosing it publicly.
+
+# Expires
+Expires: 2027-12-31T23:59:59Z

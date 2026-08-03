@@ -1,0 +1,21 @@
+generated: '2026-07-17'
+method: searched
+host: https://www.aidoc.com
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 200
+    file: aidoc-security.txt
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 404
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog            # RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >-
+  Aidoc publishes a valid RFC 9116 security.txt (Contact security@aidoc.com,
+  Policy the privacy/security pages, Expires 2027-12-31). No OIDC/OAuth
+  discovery, API catalog, or AI plugin manifest is exposed — Aidoc is a
+  clinical-AI platform (aiOS) integrated via DICOM/HL7/FHIR, not a public
+  developer API, so no OAuth/OpenAPI discovery surface exists.
